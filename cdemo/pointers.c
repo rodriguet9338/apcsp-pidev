@@ -13,7 +13,7 @@ int main()
   *ptrtoa = 6;
   printf("The value of a is %d\n", a);
   
-  printf(The value of ptrtoa is %d\n", ptrtoa);
+  printf("The value of ptrtoa is %d\n", ptrtoa);
   printf("It stores the value %d\n", *ptrtoa);
   printf("The address of a is %d\n", &a);
   
@@ -21,13 +21,14 @@ int main()
   float y = 2;
   
   printf("The value of x is %f\n", x);
-  print f("The value of y is %f\n"), y);
+  printf("The value of y is %f\n", y);
   printf("The address of x is %f\n", &x);
-  printf("The address of y is %f\n", &"y);
+  printf("The address of y is %f\n", &y);
   
   float* ptrtox = &x;
   float* ptrtoy = &y;
   
+  int temp;
   temp = *ptrtox;
   x = *ptrtoy;
   y = temp;
